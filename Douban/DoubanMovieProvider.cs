@@ -23,7 +23,7 @@ namespace Douban
         private readonly IJsonSerializer _jsonSerializer;
         private readonly IApplicationPaths _appPaths;
         private readonly string baseUrl = "https://api.douban.com/v2";
-        private readonly string apiKey = "0dad551ec0f84ed02907ff5c42e8ec70";
+        private readonly string apiKey = "054022eaeae0b00e0fc068c0c0a2102a";
         private readonly IFileSystem _fileSystem;
 
         public DoubanMovieProvider(ILogger logger, IHttpClient httpClient, IJsonSerializer jsonSerializer, IApplicationPaths appPaths, IFileSystem fileSystem)
